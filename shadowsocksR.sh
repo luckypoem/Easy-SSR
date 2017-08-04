@@ -6,14 +6,14 @@ export PATH
 #   Description: One click Install ShadowsocksR Server                        #
 #   Author: Moexin <i@lmeoo.com>                                              #
 #   Thanks: @breakwa11 <https://twitter.com/breakwa11>                        #
-#   Intro:  http://blog.lmeoo.com/easy-ssr一键完成shadowsocksr安装.html        #
+#   Intro:  http://blog.lmeoo.com/easy-ssr一键完成shadowsocksr安装.html       #
 #=============================================================================#
 
 clear
 echo
 echo "#########################################################################"
 echo "# One click Install ShadowsocksR Server                                 #"
-echo "# Intro:  http://blog.lmeoo.com/easy-ssr一键完成shadowsocksr安装.html    #"
+echo "# Intro:  http://blog.lmeoo.com/easy-ssr一键完成shadowsocksr安装.html   #"
 echo "# Author: Moexin <i@lmeoo.com>                                          #"
 echo "# Github: https://github.com/Moexin/shadowsocksr                        #"
 echo "#########################################################################"
