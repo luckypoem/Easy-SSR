@@ -1,22 +1,22 @@
 #!/usr/bin/env bash
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
-#=================================================================#
-#   System Required:  CentOS 6,7, Debian, Ubuntu                  #
-#   Description: One click Install ShadowsocksR Server            #
-#   Author: Moexin <i@lmeoo.com>                                  #
-#   Thanks: @breakwa11 <https://twitter.com/breakwa11>            #
-#   Intro:  http://blog.lmeoo.com/skill/17.html                   #
-#=================================================================#
+#=============================================================================#
+#   System Required:  CentOS 6,7, Debian, Ubuntu                              #
+#   Description: One click Install ShadowsocksR Server                        #
+#   Author: Moexin <i@lmeoo.com>                                              #
+#   Thanks: @breakwa11 <https://twitter.com/breakwa11>                        #
+#   Intro:  http://blog.lmeoo.com/easy-ssr一键完成shadowsocksr安装.html        #
+#=============================================================================#
 
 clear
 echo
-echo "#############################################################"
-echo "# One click Install ShadowsocksR Server                     #"
-echo "# Intro:  http://blog.lmeoo.com/skill/17.html               #"
-echo "# Author: Moexin <i@lmeoo.com>                              #"
-echo "# Github: https://github.com/Moexin/shadowsocksr            #"
-echo "#############################################################"
+echo "#########################################################################"
+echo "# One click Install ShadowsocksR Server                                 #"
+echo "# Intro:  http://blog.lmeoo.com/easy-ssr一键完成shadowsocksr安装.html    #"
+echo "# Author: Moexin <i@lmeoo.com>                                          #"
+echo "# Github: https://github.com/Moexin/shadowsocksr                        #"
+echo "#########################################################################"
 echo
 
 #Current folder
@@ -39,8 +39,7 @@ rc4-md5
 rc4-md5-6
 )
 # Reference URL:
-# http://blog.lmeoo.com/skill/15.html
-# http://blog.lmeoo.com/skill/16.html
+# http://blog.lmeoo.com/easy-ssr一键完成shadowsocksr安装.html
 # Protocol
 protocols=(
 origin
@@ -440,7 +439,7 @@ install(){
         echo -e "Your obfs             : \033[41;37m ${shadowsockobfs} \033[0m"
         echo -e "Your Encryption Method: \033[41;37m ${shadowsockscipher} \033[0m"
         echo
-        echo "Welcome to visit:http://blog.lmeoo.com/skill/17.html"
+        echo "Welcome to visit:http://blog.lmeoo.com/easy-ssr一键完成shadowsocksr安装.html"
         echo "Enjoy it!"
         echo
     else
